@@ -387,13 +387,13 @@ public class GetDocsThread extends Thread{
             //robot.keyRelease(KeyEvent.VK_SHIFT); 
             robot.keyPress(65);
             try {sleep(SmallTimeout);} catch (InterruptedException ex) {logger.error("не могу приостоновить поток "+ex);System.exit(0);}
-            robot.keyPress(68);
+            robot.keyPress(65);
             try {sleep(SmallTimeout);} catch (InterruptedException ex) {logger.error("не могу приостоновить поток "+ex);System.exit(0);}
-            robot.keyPress(77);
+            robot.keyPress(65);
             try {sleep(SmallTimeout);} catch (InterruptedException ex) {logger.error("не могу приостоновить поток "+ex);System.exit(0);}
-            robot.keyPress(73);
+            robot.keyPress(65);
             try {sleep(SmallTimeout);} catch (InterruptedException ex) {logger.error("не могу приостоновить поток "+ex);System.exit(0);}
-            robot.keyPress(78);
+            robot.keyPress(65);
             try {sleep(SmallTimeout);} catch (InterruptedException ex) {logger.error("не могу приостоновить поток "+ex);System.exit(0);}
             robot.keyPress(KeyEvent.VK_ENTER);
             try {sleep(SmallTimeout);} catch (InterruptedException ex) {logger.error("не могу приостоновить поток "+ex);System.exit(0);}
